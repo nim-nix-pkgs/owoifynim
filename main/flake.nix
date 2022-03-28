@@ -11,7 +11,6 @@
   inputs.src-owoifynim-main.ref   = "refs/heads/main";
   inputs.src-owoifynim-main.owner = "deadshot465";
   inputs.src-owoifynim-main.repo  = "owoifynim";
-  inputs.src-owoifynim-main.dir   = "";
   inputs.src-owoifynim-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
